@@ -9,9 +9,9 @@
     {
         $.ajax({   
     url: webServiceURL, 
-    type: "GET",
+    type: "POST",
 	crossDomain: true,
-    dataType: "jsonp", 
+    dataType: "xml", 
     data: soapMessage, 
     processData: false,
     contentType: "text/xml; charset=\"utf-8\"",
